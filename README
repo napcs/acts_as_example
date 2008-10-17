@@ -5,5 +5,27 @@ This is a very simple ActiveRecord acts_as plugin skeleton designed to show you 
 
 Feel free to modify this to suit your needs.
 
+== Example usage
+
+Mix the plugin into your model
+
+   class User < ActiveRecord::Base
+      acts_as_example
+   end
+   
+Now call the class method that this plugin attaches
+
+   User.latest_five
+   
+Now call the instance method that this plugin attaches.
+
+   user = User.find :first
+   user.to_example
+   
+See the actual acts_as_example.rb file for more details on usage.
+
+== Tests
+
+There's a sample unit test here too that covers the functionality provided. It's a decent example that I ripped off from acts_as_paranoid because it works well and it's simple enough to follow that you shouldn't get lost. I'd love to see someone submit a patch that would include specs...
 
 Copyright (c) 2008 Brian P. Hogan, released under the MIT license
