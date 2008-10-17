@@ -1,0 +1,9 @@
+ActsAsExample
+=============
+
+This is a very simple ActiveRecord acts_as plugin skeleton designed to show you how you can build a simple plugin. There are lots of resources out there on this topic, but nothing helps more than a good example.
+
+Feel free to modify this to suit your needs.
+
+
+Copyright (c) 2008 Brian P. Hogan, released under the MIT license
